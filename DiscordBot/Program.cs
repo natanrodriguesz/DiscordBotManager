@@ -2,9 +2,12 @@
 using DiscordAIBot.Config;
 using DiscordAIBot.Services;
 using DiscordBot.Config;
+using DiscordBot.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Http;
+using System.Net.Http;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -12,10 +15,10 @@ builder.Configuration
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .AddEnvironmentVariables();
 
-var discordConfig = builder.Configuration.GetSection("Discord").Get<DiscordConfig>()
+var discordConfig = builder.Configuration.GetSection("Discord").Get<ConfigDiscord.Config.DiscordConfig>()
     ?? throw new InvalidOperationException("Seção 'Discord' não encontrada.");
 
-var deepSeekConfig = builder.Configuration.GetSection("DeepSeek").Get<DeepSeekConfig>()
+var deepSeekConfig = builder.Configuration.GetSection("DeepSeek").Get<DiscordAIBot.Config.DeepSeekConfig>()
     ?? throw new InvalidOperationException("Seção 'DeepSeek' não encontrada.");
 
 

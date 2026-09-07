@@ -1,4 +1,4 @@
-﻿using Microsoft.Graph.Models;
+﻿using BotDiscord.Models;
 using System.Collections.Concurrent;
 
 namespace DiscordAIBot.Services;

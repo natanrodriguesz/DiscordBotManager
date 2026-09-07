@@ -2,11 +2,18 @@
   "Discord": {
     "Token": ""
   },
- 
+
+  "DeepSeek": {
+    "ApiKey": "SUA_DEEPSEEK_API_KEY_AQUI",
+    "Model": "deepseek-chat",
+    "ApiUrl": "https://api.deepseek.com/chat/completions",
+    "MaxHistoryMessages": 10
+  },
+
   "BotPersona": {
     "Subject": "administraçao e gestão de servidores do discord",
-    "Tone": "amigável, direto e didático,sempre prezando a melhor opção para o servidor ",
+    "Tone": "amigável, direto e didático",
     "AllowSmallTalk": true,
-    "OutOfScopeMessage": "sempre disposto a ajudar com dicas e guiar para uma melhor administração do seu server"
+    "OutOfScopeMessage": "Isso foge do assunto que eu conheço aqui."
   }
 }

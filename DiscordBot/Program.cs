@@ -1,7 +1,6 @@
 ﻿using ConfigDiscord.Config;
 using DiscordAIBot.Config;
 using DiscordAIBot.Services;
-using DiscordBot.Config;
 using DiscordBot.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

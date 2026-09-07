@@ -1,11 +1,5 @@
 ﻿namespace DiscordAIBot.Config;
 
-// Guarda o token do bot lido do appsettings.json
-public class DiscordConfig
-{
-    public string Token { get; set; } = string.Empty;
-}
-
 // Guarda as configurações de conexão com a API da Groq
 public class DeepSeekConfig
 {

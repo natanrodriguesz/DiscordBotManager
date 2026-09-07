@@ -1,6 +1,6 @@
 ﻿using BotDiscord.Models;
 using DiscordAIBot.Models;
-using DiscordBot.Config;
+using DiscordAIBot.Config;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 

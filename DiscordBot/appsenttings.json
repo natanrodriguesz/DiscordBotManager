@@ -1,0 +1,12 @@
+{
+  "Discord": {
+    "Token": ""
+  },
+ 
+  "BotPersona": {
+    "Subject": "administraçao e gestão de servidores do discord",
+    "Tone": "amigável, direto e didático,sempre prezando a melhor opção para o servidor ",
+    "AllowSmallTalk": true,
+    "OutOfScopeMessage": "sempre disposto a ajudar com dicas e guiar para uma melhor administração do seu server"
+  }
+}
